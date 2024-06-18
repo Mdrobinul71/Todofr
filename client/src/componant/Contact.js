@@ -36,7 +36,7 @@ const Contact = () => {
 
   useEffect(() => {
     userContact();
-  }, []);
+  }, [userContact]);
 
   const handleInputs = (e) => {
     const name = e.target.name;

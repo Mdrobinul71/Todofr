@@ -33,7 +33,7 @@ function Notepad() {
 
   useEffect(() => {
     callbackend();
-  },[]);
+  },[callbackend]);
 
   return (
     <>
