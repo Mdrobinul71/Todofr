@@ -27,7 +27,7 @@ function Notepad() {
       }
     } catch (err) {
       console.log(err);
-      history("https://notepad-i5rb.onrender.com/login");
+      history("/login");
     }
   };
 

@@ -19,7 +19,7 @@ function Logout() {
           throw new Error("Not Logout");
         } else {
           console.log("Logout successful");
-          navigate("https://notepad-i5rb.onrender.com/login");
+          navigate("/login");
         }
       })
       .catch((err) => {

@@ -33,7 +33,7 @@ function Login() {
       } else {
         window.alert(data.message);
         console.log(data.message);
-        history("/notepad");
+        history("/");
       }
     } catch (error) {
       console.error("Error during login:", error);

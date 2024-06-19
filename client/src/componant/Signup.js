@@ -23,7 +23,7 @@ function Signup() {
   const postData = async (e) => {
     e.preventDefault();
     const { name, email, phone, work, password, cpassword } = user;
-    const res = await fetch("/signup", {
+    const res = await fetch("https://notepad-i5rb.onrender.com/signup", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
