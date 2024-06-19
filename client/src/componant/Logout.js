@@ -19,7 +19,7 @@ function Logout() {
           throw new Error("Not Logout");
         } else {
           console.log("Logout successful");
-          navigate("/login");
+          navigate("/");
         }
       })
       .catch((err) => {

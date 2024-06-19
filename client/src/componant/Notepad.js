@@ -10,7 +10,7 @@ function Notepad() {
 
   const callbackend = async () => {
     try {
-      const resdata =await fetch("https://notepad-i5rb.onrender.com/notepad", {
+      const resdata =await fetch("https://notepad-i5rb.onrender.com/noteoad", {
         method: "GET",
         headers: {
           Accept: "application/json",

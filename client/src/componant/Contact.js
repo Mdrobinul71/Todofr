@@ -49,7 +49,7 @@ const Contact = () => {
     const { name, email, phone, message } = userData;
 
     try {
-      const resdata = await fetch("/https://notepad-i5rb.onrender.com/contact", {
+      const resdata = await fetch("https://notepad-i5rb.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
