@@ -10,7 +10,7 @@ function Notepad() {
 
   const callbackend = async () => {
     try {
-      const resdata =await fetch("/notepad", {
+      const resdata =await fetch("https://notepad-i5rb.onrender.com/notepad", {
         method: "GET",
         headers: {
           Accept: "application/json",
@@ -27,7 +27,7 @@ function Notepad() {
       }
     } catch (err) {
       console.log(err);
-      history("/login");
+      history("https://notepad-i5rb.onrender.com/login");
     }
   };
 

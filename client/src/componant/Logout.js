@@ -6,7 +6,7 @@ function Logout() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/logout", {
+    fetch("https://notepad-i5rb.onrender.com/logout", {
       method: "GET",
       headers: {
         Accept: "application/json",
@@ -19,7 +19,7 @@ function Logout() {
           throw new Error("Not Logout");
         } else {
           console.log("Logout successful");
-          navigate("/login");
+          navigate("https://notepad-i5rb.onrender.com/login");
         }
       })
       .catch((err) => {

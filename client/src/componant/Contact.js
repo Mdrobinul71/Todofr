@@ -10,7 +10,7 @@ const Contact = () => {
 
   const userContact = async () => {
     try {
-      const res = await fetch("/getdata", {
+      const res = await fetch("https://notepad-i5rb.onrender.com/getdata/", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -49,7 +49,7 @@ const Contact = () => {
     const { name, email, phone, message } = userData;
 
     try {
-      const resdata = await fetch("/contact", {
+      const resdata = await fetch("/https://notepad-i5rb.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
